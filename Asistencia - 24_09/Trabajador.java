@@ -81,7 +81,7 @@ public class Trabajador {
     }
 
     public String toString(){
-        String info = "\nNombre:" + nombre +"Nit: "+ nit+ "\nDireccion: " + direccion
+        String info = "\nNombre:" + nombre +"\nNit: "+ nit+ "\nDireccion: " + direccion
                 + "\nSalario Base: " + salarioBase + "\nHoras de Ausencia: " + hAusensia;
         return info;
     }

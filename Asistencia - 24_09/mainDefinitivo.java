@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Scanner;
 
-public class Main {
+public class mainDefinitivo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ArrayList<Trabajador> trabajadores = new ArrayList<>();
@@ -35,7 +35,7 @@ public class Main {
                     int hAusD = leerEntero(sc);
                     System.out.print("Años de Antigüedad: ");
                     int anios = leerEntero(sc);
-                    System.out.print("Grado Científico (Licenciado/Master/Doctor): ");
+                    System.out.print("Grado Científico (Master/Doctor): ");
                     String grado = sc.nextLine();
 
                     Docente docente = new Docente(nombreD, nitD, dirD, salarioD, hAusD, anios, grado);
