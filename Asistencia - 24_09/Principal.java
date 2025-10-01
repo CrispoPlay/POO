@@ -68,7 +68,12 @@ public class Principal {
             System.out.println("¿Desea agregar otro empleado? (s/n): ");
             rpta = teclado.nextLine();  
         }
+    double nominaTotal = uvg.calcularNomina();
+    double nominaDocente = uvg.salarioTotalDocente();
+    double nominaNoDocente = uvg.salarioTotalNoDocente();
 
+    System.out.println("La nomina total de la universidad es: " + nominaTotal);
+    System.out.println("La nomina total de los docentes es: " + nominaDocente);
+    System.out.println("La nomina total de los no docentes es: " + nominaNoDocente);
     }
-    
 }
