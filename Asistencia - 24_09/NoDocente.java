@@ -6,7 +6,7 @@ private int feriadosTrabajados;
         feriadosTrabajados = 0;
     }
     public NoDocente(String nombre, String nit, String direccion, double salarioBase, int hAusensia,
-                     int feriadosTrabajados) {
+                int feriadosTrabajados) {
         super(nombre, nit, direccion, salarioBase, hAusensia);
         this.feriadosTrabajados = feriadosTrabajados;
     }

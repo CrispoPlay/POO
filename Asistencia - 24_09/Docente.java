@@ -1,4 +1,3 @@
-import java.util.*;
 public class Docente extends Trabajador {
     private int aniosAntiguedad;
     private String gradoCientifico;
@@ -10,7 +9,7 @@ public class Docente extends Trabajador {
     }
 
     public Docente(String nombre, String nit, String direccion, double salarioBase,
-                   int hAusensia, int aniosAntiguedad, String gradoCientifico) {
+                    int hAusensia, int aniosAntiguedad, String gradoCientifico) {
         super(nombre, nit, direccion, salarioBase, hAusensia);
         this.aniosAntiguedad = aniosAntiguedad;
         this.gradoCientifico = gradoCientifico;

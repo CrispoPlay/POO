@@ -16,11 +16,11 @@ public class Trabajador {
         hAusensia = 0;
     }
     public Trabajador(String nombre, String nit, String direccion, double salarioBase, int hAusensia) {
-       this.nombre = nombre;
-       this.nit = nit;
-       this.direccion = direccion;
-       this.salarioBase = salarioBase;
-       this.hAusensia = hAusensia;
+        this.nombre = nombre;
+        this.nit = nit;
+        this.direccion = direccion;
+        this.salarioBase = salarioBase;
+        this.hAusensia = hAusensia;
     }
     public String getNombre() {
         return nombre;
